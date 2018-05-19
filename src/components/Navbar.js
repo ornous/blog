@@ -6,7 +6,7 @@ import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
 const Title = styled.h2`
-  color: #CCD9CE;
+  color: #AAB7AC;
   font-size: 1.9em;
   height: 1.9rem;
   line-height: 1.6;

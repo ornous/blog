@@ -39,7 +39,7 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: "Ornous.com - Blog",
-        short_name: "Blog ornous.com",
+        short_name: "Ornous Blog",
         start_url: "/",
         background_color: "#f7f0eb",
         theme_color: "#a2466c",
