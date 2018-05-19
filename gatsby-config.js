@@ -44,9 +44,9 @@ module.exports = {
         background_color: "#f7f0eb",
         theme_color: "#a2466c",
         display: "minimal-ui",
-        icon: "src/img/logo.png",
+        icon: "src/img/logo.svg",
       },
-    }
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
