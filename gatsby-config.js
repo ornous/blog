@@ -33,6 +33,21 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-react-next',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: "Ornous.com - Blog",
+        short_name: "Blog ornous.com",
+        start_url: "/",
+        background_color: "#f7f0eb",
+        theme_color: "#a2466c",
+        display: "minimal-ui",
+        icon: "src/img/logo.png",
+      },
+    }
+    'gatsby-plugin-offline',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
