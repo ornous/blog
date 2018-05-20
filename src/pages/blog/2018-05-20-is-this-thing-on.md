@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Is this thing on?
+image: /img/baby.jpg
 date: '2018-05-20T17:24:43+01:00'
 description: >-
   I am finally diving in and trying this blogging thing. I am not sure what
