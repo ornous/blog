@@ -25,6 +25,22 @@ export default class IndexPage extends React.Component {
                   <Link className="has-text-primary" to={post.fields.slug}>
                     {post.frontmatter.title}
                   </Link>
+              <div
+                className="mage-container margin-top-0"
+                style={{ backgroundImage: `url(${post.frontmatter.image})` }}
+              >
+                <h2
+                  className="has-text-weight-bold is-size-1"
+                  style={{
+                    boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+                    backgroundColor: '#f40',
+                    color: 'white',
+                    padding: '1rem',
+                  }}
+                >
+                  {post.frontmatter.title}
+                </h2>
+              </div>
                   <span> &bull; </span>
                   <small>{post.frontmatter.date}</small>
                 </p>
@@ -64,6 +80,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            image
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }
