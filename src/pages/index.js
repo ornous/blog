@@ -21,7 +21,7 @@ export default class IndexPage extends React.Component {
                 style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
                 key={post.id}
               >
-                <p>
+                <div>
                   <Link className="has-text-primary" to={post.fields.slug}>
                     {post.frontmatter.title}
                   </Link>
@@ -43,7 +43,7 @@ export default class IndexPage extends React.Component {
               </div>
                   <span> &bull; </span>
                   <small>{post.frontmatter.date}</small>
-                </p>
+                </div>
                 <p>
                   {post.excerpt}
                   <br />

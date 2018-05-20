@@ -16,7 +16,7 @@ const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" lassName="navbar-item">
+        <Link to="/" className="navbar-item">
           <Title>ornous.com</Title>
         </Link>
       </div>
