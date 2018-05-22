@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Is this thing on?
+title: Is this thing on
 image: /img/baby.jpg
 date: '2018-05-20T17:24:43+01:00'
 description: >-
