@@ -1,8 +1,9 @@
 {
-  "name": "ornous.com/blog",
-  "description": "ornous.com's blog",
+  "name": "ornous-blog",
+  "description": "ornous.com blog",
   "version": "1.0",
   "author": "Ousmane Ndiaye",
+  "main": "n/a",
   "dependencies": {
     "bulma": "^0.6.0",
     "emotion-server": "^9.1.3",
@@ -35,7 +36,6 @@
     "ornous", "blog", "gatsby", "react"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "start": "npm run develop",
     "build": "gatsby build",
